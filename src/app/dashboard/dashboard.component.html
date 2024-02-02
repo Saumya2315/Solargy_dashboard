@@ -1,0 +1,65 @@
+<div class="container-fluid" style="background-color: white; margin-left: 3px; margin-right: 3px; height: 100vh;">
+    <h6>Solar Generation And Consumption</h6>
+    <div class="row">
+ 
+        <div class="chart-container col-md-6 mt-4">
+            <canvas id="MyChart" >{{ chart }}</canvas>
+        </div>
+        <div class="col-md-6">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select Time Frame</option>
+                <option value="1">Current Week</option>
+                <option value="2">Current Month</option>
+                <option value="3">Current Year</option>
+            </select>
+            <div class="row" style="margin-left: 5px; margin-top: 15px;">
+                <!-- CARD 1 -->
+                <div class="card" style="margin-left: 5px;">
+                    <div class="card-body">
+                        <p>Energy Generation</p>
+                        <p style="font-size: 30px; font-weight: bold; color: rgb(103, 102, 102); text-align: right;">180.56</p>
+                        <p style="font-weight: bold;color: rgb(103, 102, 102); text-align: right;">(kWh)</p>
+                    </div>
+                </div>
+                <!-- CARD 1 -->
+                <div class="card" style="margin-left: 5px; background-color: rgb(237, 250, 255);">
+                    <div class="card-body">
+                        <p>Daily(kW)</p>
+                        <div class="row">
+                            <div class="col-md-6" style="font-size: 30px; font-weight: bold; color: black;">2.4</div>
+                            <div class="col-md-6" style="font-size: 30px; font-weight: bold; color: black;">5.2</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6" style="font-size: 20px;  color: black;">Min</div>
+                            <div class="col-md-6" style="font-size: 20px;  color: black;">Max</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-left: 5px;margin-top: 5px;">
+                <div class="card">
+                    <div class="card-body" style="margin-left: 5px;">
+                        <p>Energy Consumption</p>
+                        <p style="font-size: 30px; font-weight: bold; color: rgb(103, 102, 102);text-align: right;">110.56</p>
+                        <p style="font-weight: bold;color: rgb(103, 102, 102); text-align: right;">(kWh)</p>
+                    </div>
+                </div>
+                <div class="card" style="margin-left: 5px; background-color:  rgb(237, 250, 255);">
+                    <div class="card-body">
+                        <p>Daily(kW)</p>
+                        <div class="row">
+                            <div class="col-md-6" style="font-size: 30px; font-weight: bold; color: black;">2.4</div>
+                            <div class="col-md-6" style="font-size: 30px; font-weight: bold; color: black;">5.2</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6" style="font-size: 20px; color: black;">Min</div>
+                            <div class="col-md-6" style="font-size: 20px; color: black;">Max</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+ 
+</div>

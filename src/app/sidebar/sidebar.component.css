@@ -1,0 +1,40 @@
+.head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+.head1{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(97, 96, 96);
+}
+.head2{
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgb(97, 96, 96);
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-size: 18px;
+   
+}
+ul li a:hover{
+    background-color: rgb(232, 197, 136);
+}
+.container1,.container2{
+    margin-top: 20px;
+}
+.head2{
+    border-left: 1px solid #111010;
+    padding-left: 5px;
+
+}
+.container2{
+   margin-left: 10px; 
+}

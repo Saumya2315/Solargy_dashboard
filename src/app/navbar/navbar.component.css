@@ -1,0 +1,29 @@
+li:hover{
+  background-color:rgb(232, 197, 136) ;
+}
+.nav-link-container {
+   
+    padding: 8px;
+    margin: 5px;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-label {
+    margin-right: 10px;
+  }
+ 
+  .nav-value {
+    font-weight: bold;
+  }
+  .container-fluid{
+    margin-left: 5%;
+    margin-right: 25px;
+    font-size: large;
+  }
+  .nav-item{
+    background-color: white;
+    border-left: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+  }
